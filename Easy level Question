@@ -1,0 +1,45 @@
+1# Write a Python program to print "Hello, World!".
+print('Heallo Wrold')
+
+2# Write a Python program to add two numbers.
+def add_two_number(num1, Num2):
+    return num1 + Num2
+num1 = int(input("Enter your first Number"))
+Num2 = int(input("Enter your second Number"))
+   
+print(f'The sum of {num1} and {Num2} is {add_two_number(num1, Num2)}')
+
+3# Write a Python program to find the square root of a number.
+import math
+num = float(int(input('Enter a number: ')))
+square_root = math.sqrt(num)
+
+print(f'The square root of {num} is {square_root}')
+
+4# Write a Python program to swap two variables.
+# Take input from user
+x = input("Enter value of x: ")
+y = input("Enter value of y: ")
+
+# Print the original values
+print("Original values: x =", x, "and y =", y)
+
+# Swap the values
+x, y = y, x
+
+# Print the swapped values
+print("Swapped values: x =", x, "and y =", y)
+
+5# Write a Python program to check if a number is positive, negative, or zero
+
+def check_number():
+    number = float(int(input('Enter a Number: ')))
+    if number < 0 :
+      print("Negative Number")
+    elif number == 0:
+      print('It is Zerooo')
+    else :
+      print('it\'s a positive Number')    
+
+check_number()
+
