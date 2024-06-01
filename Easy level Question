@@ -42,4 +42,18 @@ def check_number():
       print('it\'s a positive Number')    
 
 check_number()
+6# Write a Python program to find the largest of three numbers.
+def find_largest(a,b,c):
+    if a >= b and a >= c:
+        return a
+    elif b>= a and b>= c:
+        return b
+    else:
+        return c
 
+a = int(input('Enter a Number: '))    
+b = int(input('Enter a Number: '))    
+c = int(input('Enter a Number: '))    
+
+larget_number = find_largest(a, b, c)
+print('This the the Largest Number: ', larget_number)
